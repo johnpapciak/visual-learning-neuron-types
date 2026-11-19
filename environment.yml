@@ -1,0 +1,19 @@
+name: coms
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyter
+  - pip:
+      - "aind-data-access-api[docdb]"
+      - pynwb
+      - hdmf-zarr
+      - anndata
+      - s3fs
+      - pandas
+      - numpy
+      - matplotlib
+      - scikit-learn
